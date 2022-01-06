@@ -23,3 +23,7 @@ git config --system http.sslcainfo “C:\Program Files (x86)\git\bin\curl-ca-bun
 这个是什么设置我也没搞懂，但是这么做有用所以先记录在这里，具体方式是在搜索自己电脑中的ca-bundle，然后一个个地址换着试试，然后就可能好了。
 参考资料：
 https://blog.csdn.net/sdhongjun/article/details/52144253
+
+2022年1月5日又犯了上述同样的毛病，但是竟然没有用，可是用了git desktop就可以git push,让我着实没搞懂
+git host刷新地址未来可以用这个
+https://github.com/ineo6/hosts
